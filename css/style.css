@@ -1,0 +1,102 @@
+.navbar-default {
+  margin-bottom: 0;
+  background: #3f51b5;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, .11);
+}
+
+.navbar-default .navbar-header a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-header a:hover {
+  background-color: #F7F7F7;
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-collapse .navbar-nav a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-collapse .navbar-nav a:hover {
+  color: #000;
+  background-color: #F7F7F7;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) .navbar-header {
+  float: left;
+}
+
+@media screen and (max-width: 1200px) .navbar-header {
+  float: none;
+  min-height: inherit;
+}
+
+section {
+  height: 100%;
+}
+
+.fas, .far {
+  color: #3F51B5;
+}
+
+/***************/
+
+/*****HOME*****/
+
+/*************/
+
+.home-section {
+  background-color: #F7F7F7;
+  padding: 110px 0 110px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.home-section h1 {
+  font-weight: bold;
+  color: #000;
+}
+
+#profile {
+  text-align: center;
+  position: relative;
+}
+
+#profile .profileImg {
+  background-image: url(../images/project.jpg);
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+#profile .profileName {
+  color: #000;
+}
+
+#profile a{
+  font-size: 40px;
+  color: #3F51B5;
+}
+
+.home-section .aboutMe {
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.home-section .contact {
+  text-align: center;
+}
+
+.home-section .interests {
+  text-align: left;
+}
+
+/* .home-section .interests ul li {
+  list-style-type: none;
+} */
