@@ -36,7 +36,7 @@
 }
 
 section {
-  height: 100%;
+  height: 100vh;
 }
 
 .fas, .far {
@@ -100,3 +100,43 @@ section {
 /* .home-section .interests ul li {
   list-style-type: none;
 } */
+
+
+
+
+/******************/
+/****RESEARCH****/
+/***************/
+
+.research-section{
+  background-color: #F7F7F7;
+  padding: 110px 0 110px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.research-section .researchTitle{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/******************/
+/****TEACHING****/
+/***************/
+
+.teaching-section{
+  background-color: #F7F7F7;
+  padding: 110px 0 110px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.teaching-section .teachingTitle{
+  text-align: center;
+  font-weight: bold;
+}
+
+.teaching-section .listOfCourses{
+  margin: 50px;
+}
