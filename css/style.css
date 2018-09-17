@@ -83,6 +83,7 @@ section {
 #profile a{
   font-size: 40px;
   color: #3F51B5;
+  padding: 0.1em;
 }
 
 .home-section .aboutMe {
