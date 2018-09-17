@@ -59,6 +59,7 @@ section {
 .home-section h1 {
   font-weight: bold;
   color: #000;
+  font-family: Cambria, Georgia, serif;
 }
 
 #profile {
@@ -87,14 +88,19 @@ section {
 .home-section .aboutMe {
   text-align: left;
   padding-bottom: 50px;
+  font-family: Cambria, Georgia, serif;
 }
 
 .home-section .contact {
   text-align: center;
+  font-family: Cambria, Georgia, serif;
 }
 
-.home-section .interests {
+.home-section .interests h4{
   text-align: left;
+  font-family: Cambria, Georgia, serif;
+  padding-bottom: 5px;
+  padding-top: 9px;
 }
 
 /* .home-section .interests ul li {
@@ -118,6 +124,11 @@ section {
 .research-section .researchTitle{
   text-align: center;
   font-weight: bold;
+  font-family: Cambria, Georgia, serif;
+}
+
+.research-section .researchTitle, h2, h5, p{
+  font-family: Cambria, Georgia, serif;
 }
 
 
@@ -135,8 +146,10 @@ section {
 .teaching-section .teachingTitle{
   text-align: center;
   font-weight: bold;
+  font-family: Cambria, Georgia, serif;
 }
 
 .teaching-section .listOfCourses{
   margin: 50px;
+  font-family: Cambria, Georgia, serif;
 }
